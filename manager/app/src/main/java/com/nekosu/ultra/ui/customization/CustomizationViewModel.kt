@@ -1,4 +1,4 @@
-package com.nekosu.ui.customization
+package com.nekosu.ultra.ui.customization
 
 import android.content.Context
 import android.net.Uri

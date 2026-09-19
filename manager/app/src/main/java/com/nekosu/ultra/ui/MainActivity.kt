@@ -254,6 +254,17 @@ class MainActivity : ComponentActivity() {
                                     entry<Route.SuSFS> { SuSFSScreen() }
                                     entry<Route.Tool> { ToolsScreen() }
                                     entry<Route.UmountManager> { UmountManagerScreen() }
+                                    entry<Route.Customization> {
+                                        com.nekosu.ultra.ui.customization.CustomizationScreen(
+                                            onBack = { navigator.pop() },
+                                            onOpenThemeMarket = { navigator.push(Route.ThemeMarket) }
+                                        )
+                                    }
+                                    entry<Route.ThemeMarket> {
+                                        com.nekosu.ultra.ui.customization.ThemeMarketScreen(
+                                            onBack = { navigator.pop() }
+                                        )
+                                    }
                                 }
                             )
                         }

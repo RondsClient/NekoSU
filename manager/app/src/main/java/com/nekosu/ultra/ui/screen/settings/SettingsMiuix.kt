@@ -204,6 +204,19 @@ fun SettingPagerMiuix(
                             },
                             onClick = actions.onOpenTheme
                         )
+                        ArrowPreference(
+                            title = stringResource(id = R.string.customization_title),
+                            summary = stringResource(id = R.string.customization_wallpaper),
+                            startAction = {
+                                Icon(
+                                    Icons.Rounded.Settings,
+                                    modifier = Modifier.padding(end = 6.dp),
+                                    contentDescription = stringResource(id = R.string.customization_title),
+                                    tint = colorScheme.onBackground
+                                )
+                            },
+                            onClick = actions.onOpenCustomization
+                        )
                         SwitchPreference(
                         title = stringResource(id = R.string.icon_switch_title),
                         summary = stringResource(id = R.string.icon_switch_summary),
