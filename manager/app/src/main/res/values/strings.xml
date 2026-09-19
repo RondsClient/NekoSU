@@ -297,6 +297,44 @@
     <string name="sort_by_update_time">Update time</string>
     <string name="sort_reverse">Reverse</string>
     <string name="profile_flags_desc_no_new_privs">Prevent further privilege escalation via KernelSU from within the context of this root profile</string>
+
+    <!-- Customization -->
+    <string name="customization_title">Customization</string>
+    <string name="customization_wallpaper">Wallpaper</string>
+    <string name="customization_wallpaper_set">Wallpaper set</string>
+    <string name="customization_wallpaper_none">No wallpaper</string>
+    <string name="customization_wallpaper_alpha">Wallpaper opacity</string>
+    <string name="customization_wallpaper_remove">Remove wallpaper</string>
+    <string name="customization_save_preset">Save preset</string>
+    <string name="customization_save_preset_summary">Save current layout as preset</string>
+    <string name="customization_preset_name">Preset name</string>
+    <string name="customization_reset_default">Reset to default</string>
+    <string name="customization_reset_default_summary">Restore default layout</string>
+    <string name="customization_modules">Modules</string>
+    <string name="customization_add_module">Add module</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- Theme Market -->
+    <string name="theme_market_title">Theme Market</string>
+    <string name="theme_market_loading">Loading themes…</string>
+    <string name="theme_market_error">Failed to load themes</string>
+    <string name="theme_market_empty">No themes available</string>
+    <string name="theme_apply">Apply</string>
+    <string name="theme_preview">Preview</string>
+    <string name="theme_author">Author: %s</string>
+    <string name="theme_version">Version: %s</string>
+    <string name="theme_downloads">Downloads: %d</string>
+
+    <!-- Module Types -->
+    <string name="module_status_card">Status Card</string>
+    <string name="module_update_card">Update Card</string>
+    <string name="module_info_card">Info Card</string>
+    <string name="module_quick_actions">Quick Actions</string>
+    <string name="module_device_info">Device Info</string>
+    <string name="module_kernel_info">Kernel Info</string>
+    <string name="module_custom_text">Custom Text</string>
+    <string name="module_custom_image">Custom Image</string>
+    <string name="module_separator">Separator</string>
     <string name="module_shortcut_copy_scheme">Copy URL scheme</string>
     <string name="module_shortcut_scheme_copied">URL scheme copied</string>
     <string name="nav_rail_expand">Expand navigation rail</string>
@@ -307,6 +345,38 @@
     <string name="hook_type">Hook Type</string>
     <string name="manual_hook">Manual Hook</string>
     <string name="inline_hook">Inline Hook</string>
+    <string name="customization_title">Customization</string>
+    <string name="customization_wallpaper">Wallpaper</string>
+    <string name="customization_wallpaper_set">Wallpaper set</string>
+    <string name="customization_wallpaper_none">No wallpaper</string>
+    <string name="customization_wallpaper_alpha">Wallpaper opacity</string>
+    <string name="customization_wallpaper_remove">Remove wallpaper</string>
+    <string name="customization_save_preset">Save preset</string>
+    <string name="customization_save_preset_summary">Save current layout as a preset</string>
+    <string name="customization_preset_name">Preset name</string>
+    <string name="customization_reset_default">Reset to default</string>
+    <string name="customization_reset_default_summary">Restore default layout</string>
+    <string name="customization_modules">Modules</string>
+    <string name="customization_add_module">Add module</string>
+    <string name="module_status_card">Status card</string>
+    <string name="module_update_card">Update card</string>
+    <string name="module_info_card">Info card</string>
+    <string name="module_quick_actions">Quick actions</string>
+    <string name="module_device_info">Device info</string>
+    <string name="module_kernel_info">Kernel info</string>
+    <string name="module_custom_text">Custom text</string>
+    <string name="module_custom_image">Custom image</string>
+    <string name="module_separator">Separator</string>
+    <string name="theme_market_title">Theme Market</string>
+    <string name="theme_market_empty">No themes available</string>
+    <string name="theme_market_info_title">Submit your theme</string>
+    <string name="theme_market_info_description">Create a PR to RondsClient/NekoSU/Vive folder to submit your theme</string>
+    <string name="theme_author">Author</string>
+    <string name="theme_version">Version</string>
+    <string name="theme_apply">Apply</string>
+    <string name="retry">Retry</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
     <string name="tracepoint_hook">Tracepoint Hook</string>
     <string name="home_susfs_version">SuSFS Version</string>
     <string name="settings_language">Language</string>

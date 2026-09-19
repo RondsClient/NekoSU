@@ -1,0 +1,62 @@
+{
+  "name": "完整信息布局",
+  "description": "显示所有可用信息模块的完整布局",
+  "author": "NekoSU Team",
+  "version": "1.0.0",
+  "previewUrl": "https://raw.githubusercontent.com/RondsClient/NekoSU/main/Vive/previews/full.png",
+  "downloads": 0,
+  "layout": {
+    "wallpaperPath": null,
+    "wallpaperAlpha": 0.6,
+    "modules": [
+      {
+        "id": "status_card",
+        "type": "STATUS_CARD",
+        "enabled": true,
+        "position": 0
+      },
+      {
+        "id": "update_card",
+        "type": "UPDATE_CARD",
+        "enabled": true,
+        "position": 1
+      },
+      {
+        "id": "separator_1",
+        "type": "SEPARATOR",
+        "enabled": true,
+        "position": 2
+      },
+      {
+        "id": "device_info",
+        "type": "DEVICE_INFO",
+        "enabled": true,
+        "position": 3
+      },
+      {
+        "id": "kernel_info",
+        "type": "KERNEL_INFO",
+        "enabled": true,
+        "position": 4
+      },
+      {
+        "id": "info_card",
+        "type": "INFO_CARD",
+        "enabled": true,
+        "position": 5
+      },
+      {
+        "id": "separator_2",
+        "type": "SEPARATOR",
+        "enabled": true,
+        "position": 6
+      },
+      {
+        "id": "quick_actions",
+        "type": "QUICK_ACTIONS",
+        "enabled": true,
+        "position": 7
+      }
+    ]
+  }
+}

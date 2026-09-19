@@ -1,0 +1,44 @@
+{
+  "name": "默认布局",
+  "description": "NekoSU 默认主题布局",
+  "author": "NekoSU Team",
+  "version": "1.0.0",
+  "previewUrl": "https://raw.githubusercontent.com/RondsClient/NekoSU/main/Vive/previews/default.png",
+  "downloads": 0,
+  "layout": {
+    "wallpaperPath": null,
+    "wallpaperAlpha": 0.5,
+    "modules": [
+      {
+        "id": "status_card",
+        "type": "STATUS_CARD",
+        "enabled": true,
+        "position": 0
+      },
+      {
+        "id": "update_card",
+        "type": "UPDATE_CARD",
+        "enabled": true,
+        "position": 1
+      },
+      {
+        "id": "device_info",
+        "type": "DEVICE_INFO",
+        "enabled": true,
+        "position": 2
+      },
+      {
+        "id": "kernel_info",
+        "type": "KERNEL_INFO",
+        "enabled": true,
+        "position": 3
+      },
+      {
+        "id": "quick_actions",
+        "type": "QUICK_ACTIONS",
+        "enabled": true,
+        "position": 4
+      }
+    ]
+  }
+}

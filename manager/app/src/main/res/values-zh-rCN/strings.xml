@@ -297,11 +297,82 @@
     <string name="nav_rail_collapse">收起导航栏</string>
     <string name="settings_navigation_badge">导航栏角标</string>
     <string name="settings_navigation_badge_summary">在导航栏显示已授权应用和已启用模块数量</string>
+
+    <!-- Customization -->
+    <string name="customization_title">自定义</string>
+    <string name="customization_wallpaper">壁纸</string>
+    <string name="customization_wallpaper_set">壁纸已设置</string>
+    <string name="customization_wallpaper_none">未设置壁纸</string>
+    <string name="customization_wallpaper_alpha">壁纸透明度</string>
+    <string name="customization_wallpaper_remove">移除壁纸</string>
+    <string name="customization_save_preset">保存预设</string>
+    <string name="customization_save_preset_summary">将当前布局保存为预设</string>
+    <string name="customization_preset_name">预设名称</string>
+    <string name="customization_reset_default">重置为默认</string>
+    <string name="customization_reset_default_summary">恢复默认布局</string>
+    <string name="customization_modules">模块</string>
+    <string name="customization_add_module">添加模块</string>
+
+    <!-- Theme Market -->
+    <string name="theme_market_title">主题商城</string>
+    <string name="theme_market_loading">正在加载主题…</string>
+    <string name="theme_market_error">加载主题失败</string>
+    <string name="theme_market_empty">暂无可用主题</string>
+    <string name="theme_apply">应用</string>
+    <string name="theme_preview">预览</string>
+    <string name="theme_author">作者：%s</string>
+    <string name="theme_version">版本：%s</string>
+    <string name="theme_downloads">下载量：%d</string>
+    <string name="theme_market_info_title">提交你的主题</string>
+    <string name="theme_market_info_description">创建 PR 到 RondsClient/NekoSU/Vive 文件夹以提交你的主题</string>
+
+    <!-- Module Types -->
+    <string name="module_status_card">状态卡片</string>
+    <string name="module_update_card">更新卡片</string>
+    <string name="module_info_card">信息卡片</string>
+    <string name="module_quick_actions">快捷操作</string>
+    <string name="module_device_info">设备信息</string>
+    <string name="module_kernel_info">内核信息</string>
+    <string name="module_custom_text">自定义文本</string>
+    <string name="module_custom_image">自定义图片</string>
+    <string name="module_separator">分隔符</string>
     <!-- Customize -->
     <string name="hook_type">钩子类型</string>
     <string name="home_susfs_version">SuSFS 版本</string>
     <string name="kernel_spoof_release">内核版本号</string>
     <string name="kernel_spoof_version">内核编译信息</string>
+    <string name="customization_title">自定义</string>
+    <string name="customization_wallpaper">壁纸</string>
+    <string name="customization_wallpaper_set">已设置壁纸</string>
+    <string name="customization_wallpaper_none">无壁纸</string>
+    <string name="customization_wallpaper_alpha">壁纸透明度</string>
+    <string name="customization_wallpaper_remove">移除壁纸</string>
+    <string name="customization_save_preset">保存预设</string>
+    <string name="customization_save_preset_summary">将当前布局保存为预设</string>
+    <string name="customization_preset_name">预设名称</string>
+    <string name="customization_reset_default">重置为默认</string>
+    <string name="customization_reset_default_summary">恢复默认布局</string>
+    <string name="customization_modules">模块</string>
+    <string name="customization_add_module">添加模块</string>
+    <string name="module_status_card">状态卡片</string>
+    <string name="module_update_card">更新卡片</string>
+    <string name="module_info_card">信息卡片</string>
+    <string name="module_quick_actions">快捷操作</string>
+    <string name="module_device_info">设备信息</string>
+    <string name="module_kernel_info">内核信息</string>
+    <string name="module_custom_text">自定义文本</string>
+    <string name="module_custom_image">自定义图片</string>
+    <string name="module_separator">分割线</string>
+    <string name="theme_market_title">主题市场</string>
+    <string name="theme_market_empty">暂无主题</string>
+    <string name="theme_market_info_title">提交您的主题</string>
+    <string name="theme_market_info_description">向 RondsClient/NekoSU 的 Vive 文件夹创建 PR 以提交主题</string>
+    <string name="theme_author">作者</string>
+    <string name="theme_version">版本</string>
+    <string name="theme_apply">应用</string>
+    <string name="retry">重试</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
     <!-- Log Viewer -->
     <string name="log_viewer_title">日志查看器</string>
     <string name="settings_view_sulog">查看 sulog 日志</string>

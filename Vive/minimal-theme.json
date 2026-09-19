@@ -1,0 +1,32 @@
+{
+  "name": "极简布局",
+  "description": "简洁的极简主义布局，只显示核心信息",
+  "author": "NekoSU Team",
+  "version": "1.0.0",
+  "previewUrl": "https://raw.githubusercontent.com/RondsClient/NekoSU/main/Vive/previews/minimal.png",
+  "downloads": 0,
+  "layout": {
+    "wallpaperPath": null,
+    "wallpaperAlpha": 0.3,
+    "modules": [
+      {
+        "id": "status_card",
+        "type": "STATUS_CARD",
+        "enabled": true,
+        "position": 0
+      },
+      {
+        "id": "quick_actions",
+        "type": "QUICK_ACTIONS",
+        "enabled": true,
+        "position": 1
+      },
+      {
+        "id": "separator",
+        "type": "SEPARATOR",
+        "enabled": true,
+        "position": 2
+      }
+    ]
+  }
+}
