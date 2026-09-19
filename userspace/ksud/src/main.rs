@@ -46,6 +46,8 @@ mod profile;
 #[cfg(target_os = "android")]
 mod resetprop;
 #[cfg(target_os = "android")]
+mod resetprop_stub;
+#[cfg(target_os = "android")]
 mod restorecon;
 #[cfg(target_os = "android")]
 mod sepolicy;

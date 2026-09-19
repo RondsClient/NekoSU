@@ -3,8 +3,9 @@
 // use adb_client::tcp::ADBTcpDevice;
 use anyhow::{Context, Result, bail};
 use log::{error, info};
-use prop_rs_android::resetprop::ResetProp;
-use prop_rs_android::sys_prop;
+// Temporary: using stub implementation
+use crate::resetprop_stub::resetprop::ResetProp;
+use crate::resetprop_stub::sys_prop;
 use std::net::{IpAddr, Ipv4Addr, SocketAddr};
 use std::process::Command;
 

@@ -9,8 +9,9 @@ use crate::{
 use anyhow::{Context, Result};
 use libc::_exit;
 use log::{error, info, warn};
-use prop_rs_android::resetprop::ResetProp;
-use prop_rs_android::sys_prop;
+// Temporary: using stub implementation
+use crate::resetprop_stub::resetprop::ResetProp;
+use crate::resetprop_stub::sys_prop;
 use rustix::process::chdir;
 use std::path::Path;
 use std::process::Command;

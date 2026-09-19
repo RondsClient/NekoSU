@@ -2,8 +2,9 @@ use anyhow::{Context, Result, bail};
 use clap::Parser;
 use clap::error::ErrorKind;
 use log::info;
-use prop_rs_android::resetprop::ResetProp;
-use prop_rs_android::sys_prop;
+// Temporary: using stub implementation
+use crate::resetprop_stub::resetprop::ResetProp;
+use crate::resetprop_stub::sys_prop;
 use std::fmt;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
