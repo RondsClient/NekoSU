@@ -55,7 +55,8 @@ nom = "8"
 derive-new = "0.7"
 getopts = "0.2"
 ksuinit = { path = "../ksuinit" }
-adb_client = { git = "https://github.com/JanCantCode/adb_client", rev = "8b871069ee33e5f9c13951b1a18f5d03f6441eef" }
+# adb_client = { git = "https://github.com/JanCantCode/adb_client", rev = "8b871069ee33e5f9c13951b1a18f5d03f6441eef" }
+# Temporarily disabled due to dependency issues
 prop-rs-android = { git = "https://github.com/Kernel-SU/ksu_props", rev = "ddb6ee7294467f7f25bad2118e9e24eee104144b" }
 serde = { version = "1.0", features = ["derive"] }
 notify = "6.1"

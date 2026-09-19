@@ -1,5 +1,6 @@
-use adb_client::ADBDeviceExt;
-use adb_client::tcp::ADBTcpDevice;
+// adb_client temporarily disabled due to dependency issues
+// use adb_client::ADBDeviceExt;
+// use adb_client::tcp::ADBTcpDevice;
 use anyhow::{Context, Result, bail};
 use log::{error, info};
 use prop_rs_android::resetprop::ResetProp;
@@ -119,6 +120,7 @@ pub fn disable_adb_root() -> Result<()> {
     Ok(())
 }
 
+/* Temporarily disabled due to adb_client dependency issues
 fn connect_to_device(port: u16) -> Result<ADBTcpDevice> {
     const MAX_RETRIES: u32 = 30;
     for attempt in 1..=MAX_RETRIES {
@@ -136,7 +138,9 @@ fn connect_to_device(port: u16) -> Result<ADBTcpDevice> {
     }
     bail!("Failed to connect to ADB device after {MAX_RETRIES} attempts")
 }
+*/
 
+/* Temporarily disabled due to adb_client dependency issues
 pub fn run(port: u16, package_name: &String, allow_shell: bool) -> Result<()> {
     enable_adb_root(port)?;
 
@@ -169,4 +173,9 @@ pub fn run(port: u16, package_name: &String, allow_shell: bool) -> Result<()> {
     }
 
     Ok(())
+}
+*/
+
+pub fn run(_port: u16, _package_name: &String, _allow_shell: bool) -> Result<()> {
+    bail!("Magica mode is temporarily disabled due to adb_client dependency issues")
 }
